@@ -1,0 +1,486 @@
+*{
+
+    box-sizing: border-box;
+}
+
+:root{
+    --clr-primary:#E46C0A;
+    --clr-dark: #344e55;
+    --clr-light: #FFF;
+    --fw-normal: 700;
+    --fw-bold:1,300;
+
+}
+.body{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Chilanka', cursive;
+ 
+}
+
+/* Header*/
+
+.header{
+    
+    background-color: var(--clr-dark);
+    width: 100%;
+    margin: 0;
+}
+
+.header__logo{
+
+    width: 26vmin;
+    height: 13vmin;
+    padding: 2vmin 0 1.3vmin 2vmin;
+    margin: auto;
+    margin: auto;
+    
+}
+
+/*Body First Section*/
+
+.body__section{
+    
+    align-content: center;
+    background-color: var(--clr-light);
+    padding: auto;
+    margin: auto;
+
+}
+
+.body__section-img{
+
+    width: 80vmin;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6vmin;
+}
+
+.section__div_p{
+
+
+    width: 60%;
+    min-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.p__section{
+
+    font-size: 2vmin;
+    display: inline-block;
+    margin-bottom: .8rem;
+}
+
+/*-------------------First DIV-----------------*/
+
+.div-one{
+
+ background-color: var(--clr-primary); 
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ height: 30rem;
+
+}
+
+.div__container{
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    max-width: 60em;
+    min-width: 20rem;
+    max-height: 30em;
+    min-height: 20px;
+    background-color: var(--clr-primary);
+
+}
+
+.one_h2{
+
+    color: var(--clr-light);
+}
+
+.one_p{
+
+    color: ;
+}
+
+.p__one-areas{
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    flex-wrap: wrap;
+    margin: .8rem 0;
+}
+
+.areas__one{
+    background-color: #8EB4E3;
+}
+
+.areas__two{
+    background-color: #E6B9B8;
+}
+
+.areas__three{
+    background-color: #D7E4BD;
+}
+
+.areas__four{
+    background-color: #CCC1DA;
+}
+
+.areas__five{
+    background-color: #B7DEE8;
+}
+
+.areas__six{
+    background-color: #FCD5B5;
+}
+
+/* -----------Second div ---------------------*/
+
+.div-two{
+
+    background-color: var(--clr-dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 30rem;
+}
+
+.second__h2{
+
+    text-align: center;
+    color: var(--clr-light);
+}
+
+.second__container{
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    max-width: 100em;
+    min-width: 20rem;
+    max-height: 30em;
+    min-height: 20px;
+    padding-right: .3rem;
+}
+
+.div__ul{
+
+}
+
+.div_ul_li{
+
+    margin-bottom: .7rem;
+    color: var(--clr-light);
+
+}
+ 
+ .body_h2{
+
+    text-align: center;
+    display: block;
+    line-height: 5%;
+    font-size: 2rem;
+    margin-top: 2.3rem;
+
+}
+
+
+/*   ----------------------------------TERCER DIV---------------------------------*/
+
+ .div-three{
+
+    width: 100%;
+    min-height: 35em; 
+    background-color: var(--clr-primary); 
+    padding: 30px 0 10px 0;
+  
+ }
+
+ .div__three_h2{
+
+    text-align: center;
+
+ }
+
+ .div__h2{
+
+    /* background-color: var(--clr-light);
+    margin: 0;
+    padding: 0; */
+ }
+
+ .card__div{
+
+     display: flex;
+     justify-content: space-evenly;
+     margin: 0;
+     padding: 0;
+     flex-wrap: wrap;
+  
+
+
+ }
+
+ .div__Card{
+
+    display: flex;
+    flex-direction: column;
+    max-width:  380px;
+    min-width: 28px;
+    height: auto;
+    border: solid 2px var(--clr-dark);
+    margin-bottom: 1rem;
+    padding: 0;
+
+ }
+
+
+ .div_h3{
+
+    display: flex;
+    justify-content: center;
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+ }
+
+.card__ul{
+
+    margin-top: 50px;
+    margin-left: 0;
+}
+
+.card__li{
+
+    margin-bottom: .9rem;
+    width: 90%;
+    padding: 0;
+    color: var(--clr-light);
+    
+}
+                                                                /*---------------------------3ro-------------------------*/
+.div__three_img{
+
+    align-content: center;
+    width: 45%;
+    max-width: 65%;
+    min-width: 23.8rem;
+    padding: auto;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.img__div__three{
+
+    width: 100%;
+    height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*----------- FOUR DIV--------------*/
+
+.div-four{
+ 
+    width: 100%;
+    min-height: 35em; 
+    background-color: var(--clr-dark); 
+    margin: 0;
+    padding: 30px 0 10px 0;
+}
+
+.div__four_h2{
+
+    text-align: center;
+}
+
+.card__four-div{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.div__four-Card{
+
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+    min-width: 30px;
+    height: auto;
+    border: solid 2px var(--clr-primary) ;
+    margin-bottom: 1rem;
+    padding: 0;
+
+}
+
+.div__four-h3{
+
+    display: flex;
+    justify-content: center;
+    background-color: var(--clr-primary);
+    color: var(--clr-light);
+
+}
+
+.card__four-ul{
+
+    margin-top: 50px;
+    margin-left: 0;
+}
+
+
+.card__four-li{
+
+    margin-bottom: .9rem;
+    width: 90%;
+    padding: 0;
+    color: var(--clr-light);
+    
+}
+
+
+/*--------------FIVE DIV---------------*/
+
+.div-five{
+ 
+    max-width: 100%;
+    min-width: 20px;
+    min-height: 20em; 
+    background-color: var(--clr-primary); 
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+}
+
+.div__h2{
+
+
+}
+
+.div__five_h2{
+
+    text-align: center;
+}
+
+.card__five-div{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+
+.div__five-Card{
+
+    display: flex;
+    flex-direction: column;
+    min-width: 30px;
+    max-width: 380px;
+    height: auto;
+    border: solid 2px var(--clr-dark) ;
+    margin-bottom: 1rem;
+    padding: 0;
+
+}
+
+.div__five-h3{
+
+    display: flex;
+    justify-content: center;
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+
+}
+
+.card__five-ul{
+
+    margin-top: 50px;
+    margin-left: 0;
+}
+
+
+.card__five-li{
+
+    margin-bottom: .9rem;
+    width: 90%;
+    padding: 0;
+    color: var(--clr-light);
+    
+}
+                                                                /*---------------------5TO----------------------*/
+.div__five_img{
+
+    align-content: center;
+    width: 45%;
+    max-width: 65%;
+    min-width: 23.8rem;
+    padding: auto;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.img__div__five{
+
+    width: 100%;
+    height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*   Clases comunes  */
+
+.section_h2{
+
+    color: var(--clr-light);
+    margin-bottom: 3rem;
+    font-size: 7vmin;
+
+}
+
+.section_p{
+
+  padding: 0 1rem .3rem 1rem;
+  color: var(--clr-light);
+}
+
+.div__areas{
+
+    border: solid 1px inherit;
+    padding: .3rem;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.div__areas{
+
+    margin: .1rem 0;
+    font-weight: bold;
+}
+
+
